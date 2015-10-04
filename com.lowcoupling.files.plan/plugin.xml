@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <wizard
+            name="New Plan Model"
+            icon="icons/Plan_Icon.png"
+            category="org.eclipse.mdpm.project.wizard"
+            class="com.lowcoupling.files.plan.wizards.PlanNewWizard"
+            id="org.eclipse.mdpm.files.plan.wizards.PlanNewWizard">
+      </wizard>
+   </extension>
+
+</plugin>

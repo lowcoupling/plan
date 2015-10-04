@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.lowcoupling.plan.defaultFeatures_0.0.1.201510031637.jar" id="com.lowcoupling.plan.defaultFeatures" version="0.0.1.201510031637">
+      <category name="plan_category"/>
+   </feature>
+   <category-def name="plan_category" label="Plan"/>
+</site>
