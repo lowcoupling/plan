@@ -1,16 +1,12 @@
 package com.lowcoupling.plan.ui.ganttview.views;
 
 import java.net.URL;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.GregorianCalendar;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
-import java.util.Map;
 
 import org.eclipse.core.runtime.FileLocator;
 import org.eclipse.core.runtime.Path;
@@ -49,10 +45,8 @@ import org.eclipse.xtext.resource.XtextResource;
 import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.outline.impl.EObjectNode;
 import org.eclipse.xtext.util.concurrent.IUnitOfWork;
-import org.eclipse.xtext.validation.CheckMode;
 import org.osgi.framework.Bundle;
 
-import com.lowcoupling.mdpm.commons.util.PlanUtil;
 import com.lowcoupling.lng.plan.plan.Activity;
 import com.lowcoupling.lng.plan.plan.ActivityElement;
 import com.lowcoupling.lng.plan.plan.ActivityGroup;
@@ -61,6 +55,7 @@ import com.lowcoupling.lng.plan.plan.Program;
 import com.lowcoupling.lng.plan.plan.Project;
 import com.lowcoupling.lng.plan.util.ActivityElementDecorator;
 import com.lowcoupling.lng.plan.validation.PlanJavaValidator;
+import com.lowcoupling.mdpm.commons.util.PlanUtil;
 
 public class GanttView extends ViewPart implements ISelectionListener{
 
