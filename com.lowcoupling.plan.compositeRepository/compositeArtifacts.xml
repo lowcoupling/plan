@@ -6,7 +6,7 @@
     <property name='p2.timestamp' value='1243822502540'/>
   </properties>
   <children size='1'>
-  	<child location='../com.lowcoupling.plan.updateSite'/>
+  	<child location='../com.lowcoupling.plan.updatesite'/>
  	<child location='http://download.eclipse.org/technology/nebula/snapshot'/>
     <child location='http://download.eclipse.org/modeling/tmf/xtext/updates/composite/milestones/'/>
    </children>
